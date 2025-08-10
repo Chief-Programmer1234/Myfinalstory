@@ -1,1 +1,15 @@
-changing everything here to good news
+First, make sure you're on the branch you want to merge from (let's call it your third branch)
+
+git checkout third-branch
+Merge the third branch into the second branch
+
+git checkout second-branch git merge third-branch
+Create a fourth branch
+
+git checkout -b fourth-branch
+Then merge the fourth branch into the third branch
+
+git checkout third-branch git merge fourth-branch
+If you want to push these changes to GitHub, you'll need to push each branch:
+
+git push origin second-branch git push origin third-branch git push origin fourth-branch
