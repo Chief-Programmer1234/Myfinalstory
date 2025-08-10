@@ -3,6 +3,3 @@ First, make sure you're on the branch you want to merge from (let's call it your
 git checkout third-branch
 Merge the third branch into the second branch
 
-git checkout second-branch git merge third-branch
-Create a fourth branch
-
